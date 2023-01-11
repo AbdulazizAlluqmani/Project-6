@@ -60,7 +60,15 @@ a:hover {
 
 }
 
-
+@media screen and (max-width: 1000px) { 
+    .column { 
+        width: 100%; 
+        display: block; 
+        margin-bottom: 30px; 
+        font-family: "SF-Mada"; 
+ 
+    }
+}
     .card {
         box-shadow: 0 4px 8px 0 gray;
         max-width: 300px;
