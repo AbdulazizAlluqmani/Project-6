@@ -3,7 +3,9 @@ body{
     margin: 0;
     font-family: SF-Mada;
     direction: rtl;
-
+    background-image: url("img/pattern.png");
+    background-size: cover;
+    background-position: center;
 }
 .header{
     padding:10px;
