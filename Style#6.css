@@ -3,6 +3,7 @@ body{
     background: antiquewhite;
     margin: 0;
     width: 100%;
+    direction: rtl;
     background-image: url("img/pattern.png");
     background-size: cover;
     background-position: center;
