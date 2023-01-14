@@ -3,7 +3,9 @@ body{
     background: antiquewhite;
     margin: 0;
     width: 100%;
-
+    background-image: url("img/pattern.png");
+    background-size: cover;
+    background-position: center;
 }
 
 h1{
