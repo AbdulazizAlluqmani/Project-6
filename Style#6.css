@@ -5,12 +5,11 @@ body{
     width: 100%;
 
 }
-html{
-    direction: rtl;
-}
+
 h1{
     font-size: 24px;
 }
+
 h2{
     white-space: nowrap;
     overflow: hidden;
