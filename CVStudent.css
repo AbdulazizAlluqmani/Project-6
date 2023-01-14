@@ -53,6 +53,7 @@ a {
     border-radius: 40px;
     padding: 15px 60px;
     text-align: center;
+    border: 1px solid var(--jet);
 }
 
 img{
@@ -80,4 +81,8 @@ img{
         width: 65%;
 
     }
+}
+
+:root{
+    --jet: hsl(0,0%,22%);
 }
