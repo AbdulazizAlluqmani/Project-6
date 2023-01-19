@@ -11,7 +11,7 @@ body{
 
 @font-face {
     font-family: Mada;
-    src: url("../font/SF-Mada.ttf") format('truetype');
+    src: url("font/SF-Mada.ttf") format('truetype');
     font-style: normal;
 }
 
