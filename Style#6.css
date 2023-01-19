@@ -9,6 +9,12 @@ body{
 
 }
 
+@font-face {
+    font-family: Mada;
+    src: url("../font/SF-Mada.ttf") format('truetype');
+    font-style: normal;
+}
+
 h1{
     font-size: 24px;
 }
@@ -64,14 +70,13 @@ a:hover {
     text-align: right;
     margin-top: auto;
     float: right;
-    font-family: "SF-Mada";
-
+    font-family: Mada;
 }
 
 .column{
     width: 100%;
     float: left;
-    font-family: "SF-Mada";
+    font-family: Mada;
     flex: 1 1 100px;
     display: flex;
 
@@ -82,7 +87,7 @@ a:hover {
     content:"";
     display: flex;
     clear: both;
-    font-family: "SF-Mada";
+    font-family: Mada;
 
 }
 
@@ -91,7 +96,7 @@ a:hover {
         width: 100%;
         display: block;
         margin-bottom: 30px;
-        font-family: "SF-Mada";
+        font-family: Mada;
         position: center;
 
     }
@@ -114,7 +119,7 @@ a:hover {
 .title{
     color: black;
     font-size: 24px;
-    font-family: "SF-Mada";
+    font-family: Mada;
 
 }
 
@@ -128,7 +133,7 @@ button{
     width: 75%;
     border-radius: 20px;
     text-align: center;
-    font-family: "SF-Mada";
+    font-family: Mada;
 
 }
 a:hover,button:hover{
