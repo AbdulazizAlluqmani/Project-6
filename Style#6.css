@@ -1,5 +1,4 @@
 body{
-    font-family: 'Mada', sans-serif;
     background: antiquewhite;
     margin: 0;
     width: 100%;
@@ -7,7 +6,7 @@ body{
     background-image: url("img/pattern2.png");
     background-size: cover;
     background-position: center;
-    
+
 }
 
 h1{
@@ -65,14 +64,14 @@ a:hover {
     text-align: right;
     margin-top: auto;
     float: right;
-    font-family: 'Mada', sans-serif;
+    font-family: "SF-Mada";
 
 }
 
 .column{
     width: 100%;
     float: left;
-    font-family: 'Mada', sans-serif;
+    font-family: "SF-Mada";
     flex: 1 1 100px;
     display: flex;
 
@@ -83,7 +82,7 @@ a:hover {
     content:"";
     display: flex;
     clear: both;
-    font-family: 'Mada', sans-serif;
+    font-family: "SF-Mada";
 
 }
 
@@ -92,7 +91,7 @@ a:hover {
         width: 100%;
         display: block;
         margin-bottom: 30px;
-        font-family: 'Mada', sans-serif;
+        font-family: "SF-Mada";
         position: center;
 
     }
@@ -100,38 +99,38 @@ a:hover {
 :root{
     --jet: hsl(0,0%,22%);
 }
-    .card {
-        box-shadow: 0 4px 8px 0 gray;
-        max-width: 200px;
-        margin: auto;
-        background: white;
-        text-align: center;
-        border-radius: 40px;
-        padding: 15px 60px;
-        white-space: nowrap;
-        position: center;
-        border: 1px solid var(--jet);
-    }
-    .title{
-        color: black;
-        font-size: 24px;
-        font-family: 'Mada', sans-serif;
+.card {
+    box-shadow: 0 4px 8px 0 gray;
+    max-width: 200px;
+    margin: auto;
+    background: white;
+    text-align: center;
+    border-radius: 40px;
+    padding: 15px 60px;
+    white-space: nowrap;
+    position: center;
+    border: 1px solid var(--jet);
+}
+.title{
+    color: black;
+    font-size: 24px;
+    font-family: "SF-Mada";
 
-    }
+}
 
-    button{
-        border: none;
-        padding: 5px 7px;
-        display: inline;
-        color: white;
-        background-color: grey;
-        cursor: pointer;
-        width: 75%;
-        border-radius: 20px;
-        text-align: center;
-        font-family: 'Mada', sans-serif;
+button{
+    border: none;
+    padding: 5px 7px;
+    display: inline;
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+    width: 75%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "SF-Mada";
 
-    }
+}
 a:hover,button:hover{
     opacity: 0.6;
 }
