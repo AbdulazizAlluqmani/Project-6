@@ -6,7 +6,7 @@ body{
     background-image: url("img/pattern2.png");
     background-size: cover;
     background-position: center;
-
+    font-family: Mada;
 }
 
 @font-face {
