@@ -109,7 +109,9 @@ a:hover {
     white-space: nowrap;
     position: center;
     border: 1px solid var(--jet);
+    font-family: "SF-Mada";
 }
+
 .title{
     color: black;
     font-size: 24px;
