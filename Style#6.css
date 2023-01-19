@@ -1,5 +1,5 @@
 body{
-    font-family: "Sakkal Majalla";
+    font-family: 'Mada', sans-serif;
     background: antiquewhite;
     margin: 0;
     width: 100%;
@@ -64,14 +64,14 @@ a:hover {
     text-align: right;
     margin-top: auto;
     float: right;
-    font-family: "SF-Mada";
+    font-family: 'Mada', sans-serif;
 
 }
 
 .column{
     width: 100%;
     float: left;
-    font-family: "SF-Mada";
+    font-family: 'Mada', sans-serif;
     flex: 1 1 100px;
     display: flex;
 
@@ -82,7 +82,7 @@ a:hover {
     content:"";
     display: flex;
     clear: both;
-    font-family: "SF-Mada";
+    font-family: 'Mada', sans-serif;
 
 }
 
@@ -91,7 +91,7 @@ a:hover {
         width: 100%;
         display: block;
         margin-bottom: 30px;
-        font-family: "SF-Mada";
+        font-family: 'Mada', sans-serif;
         position: center;
 
     }
@@ -114,7 +114,7 @@ a:hover {
     .title{
         color: black;
         font-size: 24px;
-        font-family: "SF-Mada";
+        font-family: 'Mada', sans-serif;
 
     }
 
@@ -128,7 +128,7 @@ a:hover {
         width: 75%;
         border-radius: 20px;
         text-align: center;
-        font-family: "SF-Mada";
+        font-family: 'Mada', sans-serif;
 
     }
 a:hover,button:hover{
