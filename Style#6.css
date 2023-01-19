@@ -13,6 +13,7 @@ body{
     font-family: Mada;
     src: url("font/SF-Mada.ttf") format('truetype');
     font-style: normal;
+    font-weight: normal;
 }
 
 h1{
