@@ -33,7 +33,7 @@ button {
     font-family: Arial;
     font-weight: 500;
     font-size: 17px;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: 8px;
     z-index: 1;
     overflow: hidden;
