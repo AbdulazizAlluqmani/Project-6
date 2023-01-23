@@ -22,34 +22,51 @@ h2{
 a {
     color: black;
     text-decoration: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 0.01em 19px;
 
 }
 
-a {
-    background:
-            linear-gradient(
-                    to right,
-                    rgb(255, 255, 255),
-                    rgb(255, 255, 255)
-            ),
-            linear-gradient(
-                    to right,
-                    rgba(255, 0, 0, 1),
-                    rgba(255, 0, 180, 1),
-                    rgba(0, 100, 200, 1)
-            );
-    background-size: 100% 2px, 0 2px;
-    background-position: 100% 100%, 0 103%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
+button {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    background: #ffffff;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 17px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+button:before {
+    content: "";
+    position: absolute;
+    background: #f7ead5;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+button:hover {
+    color: #ffffff;
+}
+button:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+}
+button:hover:before {
+    top: -30px;
+    left: -30px;
+}
+button:active:before {
+    background: #f7ead5;
+    transition: 0s;
 }
 
-a:hover {
-    background-size: 0 2px, 100% 2px;
-}
 
 .header {
     padding: 10px;
@@ -113,18 +130,4 @@ a:hover {
 
 }
 
-button{
-    border: none;
-    padding: 5px 7px;
-    display: inline;
-    color: white;
-    background-color: grey;
-    cursor: pointer;
-    width: 75%;
-    border-radius: 20px;
-    text-align: center;
 
-}
-a:hover,button:hover{
-    opacity: 0.6;
-}
