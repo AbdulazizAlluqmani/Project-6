@@ -38,8 +38,10 @@ button {
     z-index: 1;
     overflow: hidden;
     transition: 0.5s;
-
+    padding: 0 15px 0 15px;
+    
 }
+
 button:before {
     content: "";
     position: absolute;
