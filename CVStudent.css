@@ -1,10 +1,12 @@
 body{
     background: antiquewhite;
     margin: 0;
+    font-family: SF-Mada;
     direction: rtl;
     background-image: url("img/pattern2.png");
     background-size: cover;
     background-position: center;
+
 }
 .header{
     padding:10px;
@@ -13,21 +15,50 @@ body{
     text-align: center;
 
 }
-div{
+
+button {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    background: #ffffff;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 17px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 0 15px 0 15px;
+
 }
-/*
-.footer{
-    padding-bottom: 10px;
-    background: black;
-    color: white;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    white-space: nowrap;
+
+button:before {
+    content: "";
+    position: absolute;
+    background: #f7ead5;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    z-index: -1;
+
 }
-*/
+button:hover {
+    color: #ffffff;
+}
+button:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+}
+button:hover:before {
+    top: -30px;
+    left: -30px;
+}
+button:active:before {
+    background: #f7ead5;
+    transition: 0s;
+}
 
 h1{
     text-align: center;
