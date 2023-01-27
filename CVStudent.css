@@ -107,7 +107,7 @@ img{
 
     img {
         width: 30px;
-        justify-content: center;
+        float: none;
     }
 
     .card {
