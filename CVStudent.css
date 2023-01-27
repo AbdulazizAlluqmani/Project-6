@@ -96,19 +96,23 @@ img{
 @media only screen and (max-width: 480px) {
     h1 {
         width: 100%;
+        justify-content: center;
     }
 
     p {
         width: 90%;
         text-align: center;
+        justify-content: center;
     }
 
     img {
         width: 30px;
+        justify-content: center;
     }
 
     .card {
         width: 65%;
+        justify-content: center;
 
     }
 }
